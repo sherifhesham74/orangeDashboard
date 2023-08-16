@@ -1,0 +1,35 @@
+/* HelpDesk.css */
+
+/* Set the background color for the entire page */
+body {
+  background-color: #f0f0f088;
+}
+
+/* Style the button container */
+.buttons-container {
+  display: flex;
+  justify-content: left;
+  margin: 20px 0;
+}
+
+/* Style the buttons */
+.menu-button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.active-button {
+  background-color: #094e6c;
+  color: #fff;
+}
+.before-button {
+  background-color: #ffffff;
+  color: #fff;
+}

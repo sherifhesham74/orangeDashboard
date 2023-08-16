@@ -1,0 +1,60 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  /* background-color: #f7f9fc; */
+}
+.content{
+  width: 100%;
+}
+.title-heading{
+  text-align: center; 
+  color: orangered;
+}
+.menu-icon{
+  margin-bottom: -65px;
+  margin-left: 5px;
+}
+.dash-title{
+  /* font-size: 16px; */
+  font: bold 16px arial;
+  margin-left: 5px;
+}
+.active {
+  background-color: #13395ec4;
+ 
+}
+.sideee:hover {
+display: block !important;
+  /* Add any other styles you want to remove */
+}
+.sidebar .menu-item.active:hover {
+  /* Keep active styles even on hover */
+  background-color: #c90e0e;
+  color: #b6c8d9;
+}
+.animation-container {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.animation-text {
+  font-size: 24px;
+  text-align: center;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

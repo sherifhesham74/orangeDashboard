@@ -1,0 +1,66 @@
+/* add_service_form.css */
+
+.add-service-form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-service-form-container h2 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .add-service-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-service-form-container input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .add-service-form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .add-service-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    animation-duration: 5s;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated {
+    animation-fill-mode: both;
+  }
+  
